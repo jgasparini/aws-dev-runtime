@@ -1,4 +1,4 @@
-# aws-dev-runtime
+# AWS Developer Run Time Using Docker
 AWS developer runtime environment using Docker including tools such as AWS CLI and Terraform plus Python 3.7.
 
 # building the docker image
