@@ -5,10 +5,10 @@ ENV TERRAFORM_VERSION=0.11.11
 RUN mkdir /tf
 WORKDIR /tf
 
-COPY requirements.txt requirements.txt
+COPY python-package-requirements.txt python-package-requirements.txt
 
 RUN apk add --no-cache --virtual .build-deps \
-    && pip install -r requirements.txt \
+    && pip install -r python-package-requirements.txt \
     && find /usr/local \
         \( -type d -a -name test -o -name tests \) \
         -o \( -type f -a -name '*.pyc' -o -name '*.pyo' \) \
