@@ -9,4 +9,4 @@ To build the docker image execute the command below from the directory with the 
 # running the docker image
 To run the docker image execute the command below.  This will drop you into a new shell where you can directly access AWSCLI and Terraform.  
 
-  ```docker container run -it --rm --name aws-dev-rt aws-dev-rt```
+  ```docker container run -it --rm --name aws-dev-rt aws-dev-rte```

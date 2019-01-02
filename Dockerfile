@@ -1,6 +1,7 @@
 FROM python:3.7-alpine
 
 ENV TERRAFORM_VERSION=0.11.11
+ENV PATH "$PATH:/usr/bin"
 
 RUN mkdir /tf
 WORKDIR /tf
